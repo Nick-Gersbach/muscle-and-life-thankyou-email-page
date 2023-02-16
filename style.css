@@ -5,7 +5,51 @@
   font-family: 'Jost', sans-serif;
 }
 
+body {
+  height: 100vh;
+}
+
 h1 {
   text-align: center;
   margin-top: 50px;
+}
+
+.thank-you-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.check-container {
+  margin: 20px 0px;
+}
+
+p {
+text-align: center;
+  width: 30%;
+  font-size: 18px;
+}
+
+.back-to-website-link {
+  margin: 1.4rem 0rem;
+}
+
+.back-to-website-link a {
+  background: #f96e5b;
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 20px;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 844px) {
+ p {
+text-align: center;
+  width: 90%;
+  font-size: 18px;
+}
 }
